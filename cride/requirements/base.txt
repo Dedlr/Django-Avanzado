@@ -11,7 +11,7 @@ django==2.2.28
 django-environ==0.4.5
 
 # DjangoRestFramework
-#djangorestframework==3.9.3
+djangorestframework==3.9.3
 
 # Passwords security
 argon2-cffi==20.1.0
@@ -25,4 +25,3 @@ django-redis==4.10.0
 celery==4.4.7
 tornado>=5.0.0,<6.0.0
 flower==0.9.2
-
