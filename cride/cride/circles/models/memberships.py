@@ -4,10 +4,11 @@
 from django.db import models
 
 # Utilities
-from cride.utils.models import CRideModel
+from cride.utils.models import CRideModels
 
 
-class Membership(CRideModel):
+
+class Membership(CRideModels):
     """Membership model.
 
     A membership is the table that holds the relationship between
